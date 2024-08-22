@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>EzyStays</title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>E</span>zyStays</a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons"><i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="Search Here...">
+                <label for="search-bar"class="fas fa-search"></label>
+            </form>
+        </header>
+
+        <!--heder section ends-->
+        <!--login form starts-->
+
+        <div class="login-form-container"> 
+            <i class="fas fa-times" id="form-close"></i>
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Enter your E-mail ID">
+                <input type="password" class="box" placeholder="Enter your Password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember</label>
+                <p>Forget Password? <a href="#">Click Here</a></p>
+                <p>Don't have an account? <a href="#">Signup</a></p>
+            </form>
+        </div>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>W<span>elcome</span> <span>to </span>E<span>zyStays</span></h3>
+                <p>Make yourself Comfortable anywhere around the World</p>
+                <a href="#" class ="btn">discover more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="img/vid-5.mp4"></span>
+                <span class="vid-btn " data-src="img/vid-1.mp4"></span>
+            </div>
+
+            <div class="video-container">
+                <video src="img/vid-5.mp4" id="video-slider" loop  autoplay muted></video>
+            </div>
+        </section>
+        
+
+
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+                <div class="img">
+                    <img src="img/img-1.jpg" alt="" >
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <h3>Which City you want us to serve you?</h3>
+                        <input type="text" placeholder="Place Name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>How many Guest?</h3>
+                        <input type="number" placeholder="Number of Guest">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Check-In Day</h3>
+                        <input type="Date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Check-Out Day</h3>
+                        <input type="Date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+        </section>
+
+
+        <!-- packaage section starts -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+            
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/img-2.jpeg" alt="">
+                    <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana</h3>
+                    <p>Hyderabad, the City of Pearls, is a vibrant blend of history and modernity. Nestled by the Musi River, it features iconic landmarks like Charminar and Golconda Fort. The city's rich heritage is evident in its bustling bazaars and the tantalizing aroma of biryani. Hyderabad seamlessly merges its historic Old City with the modern IT hubs of Cyberabad. Its warm hospitality, delicious cuisine, and thriving arts scene make it a captivating gem of India.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> Rs.2900.00 <span>Rs.4500.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/img-3.jpg" alt="">
+                <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka</h3>
+                <p>Bengaluru, India’s Silicon Valley, is a dynamic city renowned for its thriving tech industry and green spaces. Known as the Garden City, it merges modern IT parks with historical sites like Bangalore Palace. The city's vibrant streets offer a blend of diverse cultures and cuisines, from gourmet dining to street food. With its pleasant climate and innovative spirit, Bengaluru is a captivating destination that seamlessly blends contemporary living with rich heritage.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Rs.9000.00 <span>Rs.12000.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/img-4.jpg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> New Delhi, India</h3>
+            <p>New Delhi, India’s bustling capital, is a vibrant blend of history and modernity. The city boasts grand landmarks like the Red Fort and India Gate, alongside contemporary spaces such as Connaught Place. Its streets are a mosaic of diverse cultures, offering everything from historic bazaars to chic eateries. New Delhi's rich heritage, coupled with its dynamic urban life and political significance, makes it a captivating and multifaceted destination.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> Rs.4000.00 <span>Rs.8000.00</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="img/img-5.jpg" alt="">
+        <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</h3>
+        <p>Mumbai's beaches, including Girgaum Chowpatty and Juhu Beach, are popular tourist spots. While many are unfit for swimming, these two offer a chance to enjoy the sea. Nearby, Essel World near Gorai Beach features Asia's largest water park, Water Kingdom. Additionally, Adlabs Imagica, a major theme park, is located near Khopoli off the Mumbai-Pune Expressway. These attractions make Mumbai a vibrant destination for beach lovers and thrill-seekers alike.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> Rs.10000.00 <span>Rs.10050.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-6.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Chennai, Tamilnadu</h3>
+    <p>Chennai, a vibrant city on India’s southeastern coast, is renowned for its rich cultural heritage and bustling urban life. It boasts iconic landmarks like Marina Beach, one of the longest urban beaches in the world, and historic sites such as Fort St. George. Known for its thriving arts scene, Chennai is a hub for classical music and dance. The city’s culinary delights, warm hospitality, and blend of tradition and modernity make it a captivating destination.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> rs.1700.00 <span>Rs.2020.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+
+<div class="box">
+    <img src="img/img-7.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Manali, Himachal Pradesh</h3>
+    <p>Manali, nestled in the Himalayas, is a charming hill station known for its breathtaking landscapes and adventure sports. Surrounded by snow-capped peaks and lush valleys, it offers popular attractions like Solang Valley and Rohtang Pass. The town's serene environment is perfect for trekking, skiing, and paragliding. With its picturesque scenery, vibrant local culture, and cozy cafes, Manali provides a perfect retreat for nature lovers and adventure enthusiasts alike.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> Rs.1800.00 <span>Rs.2500.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="https://www.travellersnearme.com/blog/2020/12/1608548103.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Goa, India</h3>
+    <p>Goa, India's coastal paradise, is celebrated for its stunning beaches, vibrant nightlife, and Portuguese-influenced architecture. Its golden sands and crystal-clear waters make beaches like Baga, Anjuna, and Palolem popular destinations. Beyond the shore, Goa's rich cultural heritage is reflected in its colonial churches, lively markets, and colorful festivals. With its laid-back atmosphere, diverse cuisine, and picturesque landscapes, Goa offers a perfect blend of relaxation and adventure for every traveler.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> Rs.9000.00 <span>Rs.17000.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-9.jpeg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Varanasi,Uttar Pradesh</h3>
+    <p>Varanasi, one of the oldest cities in the world, is a sacred jewel on the banks of the Ganges River. Renowned for its spiritual significance, it is a major pilgrimage site with ghats like Dashashwamedh and Manikarnika, where rituals and ceremonies unfold daily. The city is a hub of ancient traditions, with its labyrinthine streets, vibrant markets, and historic temples. Varanasi’s blend of spiritual heritage, cultural richness, and vibrant life offers a profound and immersive experience.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> Rs.2500.00 <span>Rs.3600.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+
+
+<div class="box">
+    <img src="img/img-10.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</h3>
+    <p>Rajasthan, India’s regal desert state, is renowned for its rich cultural heritage and majestic architecture. Home to stunning forts like Mehrangarh and Amer, and palaces such as the City Palace in Udaipur, it embodies the grandeur of bygone eras. The vibrant cities of Jaipur, Jodhpur, and Udaipur offer colorful markets and traditional crafts. Rajasthan's desert landscapes, camel safaris, and historic sites make it a captivating destination full of history and charm,it is a good place for every visitor.</p>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <div class="price"> Rs.1000.00 <span>Rs.1400.00</span></div>
+    <a href="#" class="btn">book now</a>
+</div>
+</div>
+            </div>
+        </section>
+
+        <!-- package section ends -->
+
+        <!-- Service Section starts -->
+
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Affordable Hotels</h3>
+                    <p>Book Cheap Hotels Online. No reservation costs. Great rates. Become An Affiliate. Sign Up For Deals. Register Online. List Your Property. Highlights: Safety Resource Center Available, Make Changes Online To Your Booking.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and Drinks</h3>
+                    <p> We make it easy to eat clean, plant-rich, and highly-nutritious food and drink to keep you nourished throughout the day.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety Guide</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>Around the world</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest Travel</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure</h3>
+                    <p> Lorem ipsum</p>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+
+
+
+
+        <!-- Service section ends -->
+
+<!-- Gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+<div class="box-container" id="">
+    <div class="box">
+        <img src="img/img-11.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-12.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-13.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-14.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-15.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-16.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-17.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-18.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/img-19.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Places</h3>
+            <p>Lorem Ipsum</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Gallery section ends -->
+
+<!-- Review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-20.jpg" alt="">
+                    <h3>Subramanian</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-21.jpeg" alt="">
+                    <h3>Rashmika Agrawal</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-22.jpeg" alt="">
+                    <h3>Ashok Chakraborthy</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/img-24.jpg" alt="">
+                    <h3>Vikram Patel</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="img/img-25.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+              <input type="text" placeholder="name">  
+              <input type="email" placeholder="email">  
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">  
+                <input type="text" placeholder="subject">  
+              </div>
+
+              <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+              <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<!-- brand section -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section -->
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Totam natus asperiores voluptas aliquam vitae odio. Beatae doloribus facere nostrum magni.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Hyderabad</a>
+            <a href="#">Bengaluru</a>
+            <a href="#">New Delhi</a>
+            <a href="#">Chennai</a>
+            <a href="#">Varanasi</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Jaipur</a>
+            <a href="#">Manali</a>
+            <a href="#">Goa</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>Rajesh Naitham</span> | all rights reserved!! </h1>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
